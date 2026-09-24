@@ -112,6 +112,9 @@ namespace ImGuiInterops
 		UnrealToImGuiKeyMap.Add(EKeys::RightBracket, ImGuiKey_RightBracket);
 		UnrealToImGuiKeyMap.Add(EKeys::Apostrophe,   ImGuiKey_Apostrophe);
 		UnrealToImGuiKeyMap.Add(EKeys::Semicolon,    ImGuiKey_Semicolon);
+		UnrealToImGuiKeyMap.Add(EKeys::Tilde,        ImGuiKey_GraveAccent);
+		UnrealToImGuiKeyMap.Add(EKeys::Hyphen,       ImGuiKey_Minus);
+		UnrealToImGuiKeyMap.Add(EKeys::Backslash,    ImGuiKey_Backslash);
 
 		UnrealToImGuiKeyMap.Add(EKeys::NumPadZero,  ImGuiKey_Keypad0);
 		UnrealToImGuiKeyMap.Add(EKeys::NumPadOne,   ImGuiKey_Keypad1);
